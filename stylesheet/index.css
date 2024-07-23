@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+  
+}
+.navbar{
+    background-color: white;
+}
+/*bar main div*/
+#search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+/*searxh bar imput*/
+.form-control{
+    width: 500px;
+    background-color:#f1f5ff;
+    
+    
+   
+    
+  
+}
+/*search icon div*/
+#icon{
+    background-color:#f1f5ff;
+    width: 30px;
+   
+    border: 1px solid red;
+    outline: 0  none;
+}
+/*search icon*/
+.fa-solid{
+    padding: 8px 8px 8px 8px;
+}
+/*login option*/
+#login{
+   
+   
+}
+/*login icon*/
+.fa-regular{
+margin-right: 5px;
+}
+/*cart*/
+#cart{
+   
+}
+#offer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+     margin-left: 20px;
+     margin-right: 20px;
+     margin-top: 10px;
+    
+    height: 120px;
+
+
+    
+}
+.deals{
+
+width: 100px;
+text-align: center;
+}
+/*crousal*/
+#carouselExampleControls{
+    margin-top: 15px;
+}
+/*smartphone*/
+.smartphone{
+    width: 85%;
+    border: 1px solid  red;
+    margin-left: 10px;
+    margin-top: 10px;
+  
+
+}
+.phones{
+    display: flex;
+    justify-content: space-evenly;
+}
+#ph-text{
+    margin-top: 9px;
+    margin-left: 20px;
+    font-size: larger;
+    font-weight: bold;
+}
